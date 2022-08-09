@@ -55,7 +55,7 @@ body{
 
 .parent-2{
   background-color: #093665;
-  height: 300px;
+  height: 330px;
 }
 
 .text1{
@@ -85,13 +85,19 @@ body{
   background-color: #3882F6;
   color: #F9F8FA;
   font: roboto, sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   width: 100px;
   height: 30px;
-  border-radius: 8px;
+  border-radius: 6px;
   border: 10px;
 }
 
 .button-1:active{
   background-color: #1EC92B;
+}
+
+.image{
+  margin-top: 0px;
+  margin-left: 900px;
+  flex-direction: row;
 }
