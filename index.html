@@ -1,54 +1,103 @@
-<!DOCTYPE html>
-<html lang="en">
+body{
+  margin: 0px;
+}
 
-<head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="./style.css">
-  <title>
-    Landing Page
-  </title>
-</head>
+.parent{
+  display: flex;
+  flex-direction: column;
+}
 
-<body>
-  <div class='parent'>
-    <div class="parent-1">
+.parent-1{
+  display: flex;
+  background-color: #1F2937;
+  padding: 1rem; 
+  align-items: flex-end;
+  width: 1409px;
+  justify-content: flex-start;
+}
 
-      <div class='header'>
-        <strong>Header Logo</strong>
-      </div>
+.header{
+  color: #F9F8FA;
+  font: 15px Roboto, sans-serif;
+  font-size: 24px;
+  margin-top: 0px;
+  margin-left: 70px
+}
 
-      <div class='links'>
-        <div class="link-1">
-          <a href="#x" class="link-1">link 1</a>
-        </div>
+.links{
+  display: flex;
+  justify-content: flex-start;
+}
 
-        <div class="link-2">
-          <a href="#y" class="link-2">link 2</a>
-        </div>
+ .link-1 {
+  text-decoration: none;
+  color: #E5E7EB;
+  font: 18px Roboto, sans-serif;
+  margin-top: 0px;
+  margin-left: 400px;
+}
 
-        <div class="header-link-3">
-          <a href="#z" class="link-3">link 3</a>
-        </div>
+.link-2 {
+  text-decoration: none;
+  color: #E5E7EB;
+  font: 18px Roboto, sans-serif;
+  margin-top: 0px;
+  margin-left: 10px;
+}
 
-      </div>
-    </div>
+.link-3 {
+  text-decoration: none;
+  color: #E5E7EB;
+  font: 18px Roboto, sans-serif;
+  margin-top: 0px;
+  margin-left: 20px;
+}
 
-    <div class="parent-2">
+.parent-2{
+  background-color: #093665;
+  height: 330px;
+}
 
-      <div class="text1">
-        <strong>This website is <br>awesome</strong>
-      </div>
+.text1{
+  font: roboto, sans-serif;
+  font-size: 48px;
+  color: #F9F8FA;
+  margin-left: 90px;
+  margin-top: 30px;
+}
 
-      <div class="text2">
-        This website has some subtext that goes here under the <br>main line. It's a smaller font and the color is lower<br> contrast.
-      </div>
+.text2{
+  font: roboto, sans-serif;
+  font-size: 18px;
+  color: #E5E7EB;
+  margin-left: 90px;
+  margin-top: 30px;
+}
 
-      <div class="sign-up-1">
-        <button type="button" class=button-1><strong>Sign up</strong></button>
-      </div>
+.sign-up-1{
+  
+  color: #E5E7EB;
+  margin-left: 90px;
+  margin-top: 30px;
+}
 
-    </div>
-  </div>
-</body>
+.button-1{
+  background-color: #3882F6;
+  color: #F9F8FA;
+  font: roboto, sans-serif;
+  font-size: 15px;
+  width: 100px;
+  height: 30px;
+  border-radius: 6px;
+  border: 10px;
+}
 
-</html>
+.button-1:active{
+  background-color: #1EC92B;
+}
+
+.image{
+  margin-top: 0px;
+  margin-left: 900px;
+  flex-direction: row;
+}
