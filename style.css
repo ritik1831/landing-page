@@ -1,37 +1,37 @@
-body{
+body {
   margin: 0px;
 }
 
-.parent{
+.parent {
   display: flex;
   flex-direction: column;
 }
 
-.parent-1{
+.parent-1 {
   display: flex;
-  background-color: #133B20;
-  padding: 1rem; 
+  background-color: #133b20;
+  padding: 1rem;
   align-items: flex-end;
   width: 1409px;
   justify-content: flex-start;
 }
 
-.header{
-  color: #F9F8FA;
+.header {
+  color: #f9f8fa;
   font: 15px Roboto, sans-serif;
   font-size: 24px;
   margin-top: 0px;
-  margin-left: 70px
+  margin-left: 70px;
 }
 
-.links{
+.links {
   display: flex;
   justify-content: flex-start;
 }
 
- .link-1 {
+.link-1 {
   text-decoration: none;
-  color: #E5E7EB;
+  color: #e5e7eb;
   font: 18px Roboto, sans-serif;
   margin-top: 0px;
   margin-left: 400px;
@@ -39,7 +39,7 @@ body{
 
 .link-2 {
   text-decoration: none;
-  color: #E5E7EB;
+  color: #e5e7eb;
   font: 18px Roboto, sans-serif;
   margin-top: 0px;
   margin-left: 10px;
@@ -47,43 +47,43 @@ body{
 
 .link-3 {
   text-decoration: none;
-  color: #E5E7EB;
+  color: #e5e7eb;
   font: 18px Roboto, sans-serif;
   margin-top: 0px;
   margin-left: 20px;
 }
 
-.parent-2{
-  background-color: #1F753A;
+.parent-2 {
+  background-color: #1f753a;
   width: 1441px;
   height: 360px;
 }
 
-.text1{
+.text1 {
   font: roboto, sans-serif;
   font-size: 48px;
-  color: #F9F8FA;
+  color: #f9f8fa;
   margin-left: 90px;
   margin-top: 30px;
 }
 
-.text2{
+.text2 {
   font: roboto, sans-serif;
   font-size: 18px;
-  color: #E5E7EB;
+  color: #e5e7eb;
   margin-left: 90px;
   margin-top: 30px;
 }
 
-.sign-up-1{
-  color: #E5E7EB;
+.sign-up-1 {
+  color: #e5e7eb;
   margin-left: 90px;
   margin-top: 30px;
 }
 
-.button-1{
-  background-color: #65810C;
-  color: #F9F8FA;
+.button-1 {
+  background-color: #65810c;
+  color: #f9f8fa;
   font: roboto, sans-serif;
   font-size: 15px;
   width: 100px;
@@ -92,71 +92,69 @@ body{
   border: 10px;
 }
 
-.button-1:active{
-  background-color: #1EC92B;
+.button-1:active {
+  background-color: #1ec92b;
 }
 
-.image{
+.image {
   margin-top: 0px;
   margin-left: 900px;
   flex-direction: row;
 }
 
-.parent-3{
-  background-color: #F9F8FA;
+.parent-3 {
+  background-color: #f9f8fa;
 }
 
-.text3{
+.text3 {
   text-align: center;
   margin-top: 10px;
   font-size: 36px;
   font: roboto;
-  color: #1F2937;
+  color: #1f2937;
   height: 100px;
 }
 
-
-
-.img-1{
+.img-1 {
   margin-left: 300px;
-  border: 5px solid #50EF68;
+  border: 5px solid #50ef68;
   border-radius: 10px;
 }
 
-.img-2{
+.img-2 {
   margin-left: 300px;
-  border: 5px solid #50EF68;
+  border: 5px solid #50ef68;
   border-radius: 10px;
 }
 
-.img-3{
+.img-3 {
   margin-left: 300px;
-  border: 5px solid #50EF68;
+  border: 5px solid #50ef68;
   border-radius: 10px;
 }
 
-.captions{
+.captions {
   display: flex;
   flex-direction: row;
 }
 
-.caption-1{
+.caption-1 {
   margin-left: 300px;
   font: roboto, sans-serif;
   font-size: 18px;
-  color: #1F2937;
+  color: #1f2937;
 }
 
-.caption-2{
+.caption-2 {
   margin-left: 280px;
   font: roboto, sans-serif;
   font-size: 18px;
-  color: #1F2937;
+  color: #1f2937;
 }
 
-.caption-3{
+.caption-3 {
   margin-left: 275px;
   font: roboto, sans-serif;
   font-size: 18px;
-  color: #1F2937;
+  color: #1f2937;
 }
