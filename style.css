@@ -18,8 +18,7 @@ body {
 
 .header {
   color: #f9f8fa;
-  font: 15px Roboto, sans-serif;
-  font-size: 24px;
+  font: 24px Roboto, sans-serif;
   margin-top: 0px;
   margin-left: 70px;
 }
@@ -55,7 +54,7 @@ body {
 
 .link-1:active {
   text-decoration: none;
-  color: #BABBBD;
+  color: #babbbd;
   font: 18px Roboto, sans-serif;
   margin-top: 0px;
   margin-left: 400px;
@@ -63,7 +62,7 @@ body {
 
 .link-2:active {
   text-decoration: none;
-  color: #BABBBD;
+  color: #babbbd;
   font: 18px Roboto, sans-serif;
   margin-top: 0px;
   margin-left: 10px;
@@ -71,13 +70,13 @@ body {
 
 .link-3:active {
   text-decoration: none;
-  color: #BABBBD;
+  color: #babbbd;
   font: 18px Roboto, sans-serif;
   margin-top: 0px;
   margin-left: 20px;
 }
 
-.parent-2{
+.parent-2 {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -86,23 +85,21 @@ body {
   height: 360px;
 }
 
-.parent-2-text{
+.parent-2-text {
   width: 5000px;
   display: flex;
   flex-direction: column;
 }
 
 .text1 {
-  font: roboto, sans-serif;
-  font-size: 48px;
+  font: 48px Roboto, sans-serif;
   color: #f9f8fa;
   margin-left: 90px;
   margin-top: 30px;
 }
 
 .text2 {
-  font: roboto, sans-serif;
-  font-size: 18px;
+  font: 18px Roboto, sans-serif;
   color: #e5e7eb;
   margin-left: 90px;
   margin-top: 30px;
@@ -117,8 +114,7 @@ body {
 .button-1 {
   background-color: #65810c;
   color: #f9f8fa;
-  font: roboto, sans-serif;
-  font-size: 15px;
+  font: 15px Roboto, sans-serif;
   width: 100px;
   height: 30px;
   border-radius: 6px;
@@ -131,8 +127,8 @@ body {
 
 .image {
   margin-top: 50px;
-  margin-right: 300px;
-  border: 5px solid #3EB450;
+  margin-right: 400px;
+  border: 5px solid #3eb450;
   border-radius: 10px;
 }
 
@@ -141,20 +137,18 @@ body {
   width: 1441px;
   flex-direction: column;
   background-color: #f9f8fa;
-  width: 1441px;
   height: 360px;
 }
 
 .text3 {
   text-align: center;
   margin-top: 10px;
-  font-size: 36px;
-  font: roboto;
+  font: 36px Roboto, sans-serif;
   color: #1f2937;
   height: 100px;
 }
 
-.images{
+.images {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -179,7 +173,84 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  font: roboto;
-  font-size: 28px;
-  color: #4A515F;
+  font: 28px Roboto, sans-serif;
+  color: #4a515f;
+  height: 100px;
+}
+
+.parent-4 {
+  display: flex;
+  background-color: #e5e7eb;
+  flex-direction: column;
+  width: 1441px;
+  height: 330px;
+}
+
+.quote {
+  font: 36px Roboto, sans-serif;
+  font-style: italic;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+.source {
+  font: 25px Roboto, sans-serif;
+  margin-top: 25px;
+  margin-left: 900px;
+}
+
+.parent-5 {
+  display: flex;
+  background-color: #efefef;
+  flex-direction: column;
+  width: 1441px;
+  height: 270px;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  background-color: #3882f6;
+  margin-top: 100px;
+  width: 1000px;
+  border-radius: 6px;
+  flex-direction: row;
+  height: 100px;
+}
+
+.bluetext {
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+}
+
+.bluetext1 {
+  color: #e5e7eb;
+  font: 20px Roboto, sans-serif;
+  margin-top: 30px;
+  margin-left: 80px;
+}
+
+.bluetext2 {
+  color: #cbcbcb;
+  font: 15px Roboto, sans-serif;
+  margin-top: 10px;
+  margin-left: 84px;
+}
+
+.button-2 {
+  color: #e7e5eb;
+  font: 20px Roboto, sans-serif;
+  background-color: #3882f6;
+  margin-top: 35px;
+  margin-left: 100px;
+  width: 160px;
+  height: 40px;
+  border-radius: 6px;
+  border: 2px solid white;
+}
+
+.button-2:active {
+  background-color: #da7005;
+  color: #e5e7eb;
 }
