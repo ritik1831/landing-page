@@ -105,11 +105,11 @@ body {
   background-color: #1ec92b;
 }
 
-.image {
+/*.image {
   margin-top: 0px;
   margin-left: 900px;
   flex-direction: row;
-}
+}*/
 
 .parent-3 {
   display: flex;
