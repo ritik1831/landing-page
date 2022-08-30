@@ -54,12 +54,15 @@ body {
 }
 
 .parent-2{
+  display: flex;
+  flex-direction: row;
   background-color: #1f753a;
   width: 1441px;
   height: 360px;
 }
 
 .parent-2-text{
+  width: 5000px;
   display: flex;
   flex-direction: column;
 }
@@ -108,6 +111,9 @@ body {
 }
 
 .parent-3 {
+  display: flex;
+  width: 1441px;
+  flex-direction: column;
   background-color: #f9f8fa;
 }
 
