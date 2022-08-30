@@ -113,9 +113,10 @@ body {
 
 .parent-3 {
   display: flex;
-  width: 1441px;
   flex-direction: column;
   background-color: #f9f8fa;
+  width: 1441px;
+  height: 360px;
 }
 
 .text3 {
