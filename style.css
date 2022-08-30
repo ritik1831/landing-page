@@ -9,7 +9,7 @@ body{
 
 .parent-1{
   display: flex;
-  background-color: #1F2937;
+  background-color: #133B20;
   padding: 1rem; 
   align-items: flex-end;
   width: 1409px;
@@ -54,8 +54,9 @@ body{
 }
 
 .parent-2{
-  background-color: #093665;
-  height: 330px;
+  background-color: #1F753A;
+  width: 1441px;
+  height: 360px;
 }
 
 .text1{
@@ -75,14 +76,13 @@ body{
 }
 
 .sign-up-1{
-  
   color: #E5E7EB;
   margin-left: 90px;
   margin-top: 30px;
 }
 
 .button-1{
-  background-color: #3882F6;
+  background-color: #65810C;
   color: #F9F8FA;
   font: roboto, sans-serif;
   font-size: 15px;
@@ -100,4 +100,63 @@ body{
   margin-top: 0px;
   margin-left: 900px;
   flex-direction: row;
+}
+
+.parent-3{
+  background-color: #F9F8FA;
+}
+
+.text3{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 36px;
+  font: roboto;
+  color: #1F2937;
+  height: 100px;
+}
+
+
+
+.img-1{
+  margin-left: 300px;
+  border: 5px solid #50EF68;
+  border-radius: 10px;
+}
+
+.img-2{
+  margin-left: 300px;
+  border: 5px solid #50EF68;
+  border-radius: 10px;
+}
+
+.img-3{
+  margin-left: 300px;
+  border: 5px solid #50EF68;
+  border-radius: 10px;
+}
+
+.captions{
+  display: flex;
+  flex-direction: row;
+}
+
+.caption-1{
+  margin-left: 300px;
+  font: roboto, sans-serif;
+  font-size: 18px;
+  color: #1F2937;
+}
+
+.caption-2{
+  margin-left: 280px;
+  font: roboto, sans-serif;
+  font-size: 18px;
+  color: #1F2937;
+}
+
+.caption-3{
+  margin-left: 275px;
+  font: roboto, sans-serif;
+  font-size: 18px;
+  color: #1F2937;
 }
