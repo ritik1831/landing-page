@@ -105,11 +105,12 @@ body {
   background-color: #1ec92b;
 }
 
-/*.image {
-  margin-top: 0px;
-  margin-left: 900px;
-  flex-direction: row;
-}*/
+.image {
+  margin-top: 100px;
+  margin-right: 400px;
+  border: 5px solid #3EB450;
+  border-radius: 10px;
+}
 
 .parent-3 {
   display: flex;
@@ -155,4 +156,3 @@ body {
   align-items: center;
   justify-content: space-around;
 }
-
